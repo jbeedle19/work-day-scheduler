@@ -13,5 +13,7 @@ An online daily scheduler that users are able to add tasks to. The scheduler dis
 ## Website
 www.placeholder.com
 
+## Screenshots
+
 ## Contribution
 Made with ❤️ by Joshua Beedle

@@ -38,5 +38,28 @@ $(document).ready(function() {
     }
 
     checkHour();
-    localStorage.getItem(time, value);
-})
+
+    // Very ugly and a lot of code, let's figure out how to clean this up
+    function loadTasks() {
+        var task1 = localStorage.getItem("hour-9")
+        $("#9").val(task1)
+        var task2 = localStorage.getItem("hour-10")
+        $("#10").val(task2)
+        var task3 = localStorage.getItem("hour-11")
+        $("#11").val(task3)
+        var task4 = localStorage.getItem("hour-12")
+        $("#12").val(task4)
+        var task5 = localStorage.getItem("hour-13")
+        $("#13").val(task5)
+        var task6 = localStorage.getItem("hour-14")
+        $("#14").val(task6)
+        var task7 = localStorage.getItem("hour-15")
+        $("#15").val(task7)
+        var task8 = localStorage.getItem("hour-16")
+        $("#16").val(task8)
+        var task9 = localStorage.getItem("hour-17")
+        $("#17").val(task9)
+    }
+    
+    loadTasks();
+});

@@ -35,6 +35,7 @@ $(document).ready(function() {
                 $(this).addClass("future");
             }
         });
+    console.log("I am automated and working!")
     }
 
     checkHour();
@@ -62,4 +63,9 @@ $(document).ready(function() {
     }
     
     loadTasks();
+    
+    setInterval(function () {
+       checkHour();
+    }, 900000);
+
 });

@@ -7,11 +7,13 @@ An online daily scheduler that users are able to add tasks to. The scheduler dis
 * HTML
 * CSS
 * JavaScript
-* Placeholder
-* Placeholder
+* Moment.js
+* jQuery
 
 ## Website
 www.placeholder.com
+
+## Screenshots
 
 ## Contribution
 Made with ❤️ by Joshua Beedle

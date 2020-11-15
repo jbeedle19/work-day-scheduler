@@ -14,7 +14,7 @@ An online daily scheduler that users are able to add tasks to. The scheduler dis
 https://jbeedle19.github.io/work-day-scheduler/
 
 ## Screenshots
-![screenshot](./assets/images/screenshot.pdf)
+![screenshot](./assets/images/screenshot.png)
 
 ## Contribution
 Made with ❤️ by Joshua Beedle
